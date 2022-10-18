@@ -1,0 +1,14 @@
+## Tasks for UniCamp GAN Exercise
+
+* Loss Monitor
+> Já implementado
+* Jensen-Shannon Divergence calculator + Monitor
+> É necessário encontrar como o algoritmo foi proposto para implementá-lo do zero ou procurar alguma biblioteca/script com uma implementação confiável.
+* Investigar e/ou Implementar/Implantar o FID
+> Mesma coisa da divergência de Jensen-Shannon.
+* GAN + House Number DS
+> Provavelmente bem simples, já que basta alterar o formato dos dados esperado para o novo (presumo que seja só mudar a varável n_inputs)
+* GAN + House Number DS + Condition
+> Essa parte é mais complexa, porém a abordagem sugerida no trabalho seria adicionar o embedding de classes em formato de one hot encoding como segunda entrada no gerador e no discriminador. É preciso explorar o artigo de referência disponibilizado
+* GAN + House Number DS + Condition + Conv Layers
+> Essa parte será necessário a maior quantidade de testes provavelmente, pesquisando algumas possíveis abordagens, em qual momento deve-se adicionar as camadas, criar alguns blocos de convolução, etc.
